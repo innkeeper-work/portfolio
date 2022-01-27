@@ -1,0 +1,61 @@
+// color
+$bg-color: #FBEAFF;
+$pry-color: #00C0A3;
+$sec-color: #ffffff;
+$text-color: #000000;
+$black-opacity:rgba(0, 0, 0, 0.6);
+
+
+
+// fonts
+@mixin subtitles {
+    font: {
+        family: Arial;
+        style: normal;
+        weight: normal;
+        size: 40px;
+    }
+    // line-height: 53px;
+}
+
+@mixin semititle {
+    font: {
+        family: Helvetica;
+        style: normal;
+        weight: bold;
+        size: 34px;
+    }
+
+    // line-height: 45px;
+    // letter-spacing: -0.02em
+}
+
+@mixin parag {
+    font: {
+        family: Roboto;
+        style: normal;
+        weight: 200;
+        size: 18px;
+    }
+
+    line-height: 21px;
+}
+
+@mixin button {
+    width: 132px;
+    height: 44px;
+    background: #00C0A3;
+    border-radius: 50px;
+}
+
+.headone {
+    @include subtitles;
+    color: blue;
+}
+
+.btn {
+    @include button;
+}
+
+
+
