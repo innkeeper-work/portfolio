@@ -52,10 +52,9 @@ $black-opacity:rgba(0, 0, 0, 0.6);
     @include subtitles;
     color: blue;
 }
+@use 'css/custom' as *;
 
-.hero {
-   
-}
+
 
 
 

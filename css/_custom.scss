@@ -1,0 +1,141 @@
+// import custom designs from figma
+
+// colors
+$bgcolor: #fbeaff;
+$prycolor: #00c0a3;
+// fonts
+@mixin logo-font($logo-line-height: 53px, $logo-letter-spacing: -0.14em) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 45px;
+	}
+	line-height: $logo-line-height;
+	letter-spacing: $logo-letter-spacing;
+}
+@mixin nav-font($nav-line-height: 23px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 15px;
+	}
+
+	line-height: $nav-line-height;
+}
+
+@mixin myname-font($myname-line-height: 45px, $myname-letter-spacing: -0.02em) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: bold;
+		size: 30px;
+	}
+
+	line-height: $myname-line-height;
+	letter-spacing: $myname-letter-spacing;
+}
+
+@mixin myintro-font(
+	$myintro-line-height: 53px,
+	$myintro-letter-spacing: -0.02em
+) {
+	font: {
+		family: "Times New Roman";
+		// style: normal;
+		weight: 400;
+		size: 35px;
+	}
+	line-height: $myintro-line-height;
+	letter-spacing: $myintro-letter-spacing;
+	font-family: "Times New Roman";
+}
+
+@mixin subheading-font(
+	$subhead-line-height: 53px,
+	$subhead-letter-spacing: 0em
+) {
+	font: {
+		font-family: "Arial";
+		size: 40px;
+		// style: normal;
+		weight: 400;
+	}
+	line-height: $subhead-line-height;
+	letter-spacing: $subhead-letter-spacing;
+}
+
+@mixin pfonts($pfonts-line-height: 21px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: 200;
+		size: 0.75rem;
+	}
+
+	line-height: $pfonts-line-height;
+}
+
+@mixin reviewnamefont($reviewnamefont-line-height: 28px) {
+	font: {
+		family: Roboto;
+		// style: normal;
+		weight: 600;
+		size: 24px;
+	}
+	line-height: $reviewnamefont-line-height;
+}
+
+@mixin pricinghead-font(
+	$pricinghead-line-height: 40px,
+	$pricinghead-letter-spacing: -0.02em
+) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: 500;
+		size: 30px;
+	}
+	line-height: $pricinghead-line-height;
+	letter-spacing: $pricinghead-letter-spacing;
+}
+
+@mixin pricingbody-font($pricingbody-line-height: 28px) {
+	font: {
+		family: Arial;
+		// style: normal;
+		weight: 300;
+		size: 24px;
+	}
+	line-height: $pricingbody-line-height;
+}
+
+// components
+
+// button
+@mixin contact-button {
+	position: relative;
+	padding: 0.1rem 0.95rem;
+	font-weight: 500;
+	margin: 0;
+	background-color: #00c0a3;
+}
+@mixin hireme-button {
+	width: 100px;
+	background-color: #00c0a3;
+	border-radius: 10px;
+}
+@mixin getintouch-button {
+	height: 56px;
+	width: 217px;
+	border-radius: 50px;
+}
+
+// horizontal line
+@mixin hr-line {
+	width: 40px;
+	height: 3px !important;
+	margin: 0 auto;
+	color: #00c0a3;
+}
