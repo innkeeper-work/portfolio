@@ -44,3 +44,11 @@ body {
 .iconz {
     color: $prycolor;;
 }
+
+.services {
+    @include subheading-font;
+}
+
+hr {
+    @include hr-line;
+}
