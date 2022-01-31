@@ -24,3 +24,23 @@ body {
 .mobile-bg {
     background-color: $prycolor;
 }
+
+.myname {
+    @include myname-font;
+}
+
+.myintro {
+    @include myintro-font;
+}
+
+.jobintro {
+    color: $prycolor;
+}
+
+.hireme {
+    @include hireme-button;
+}
+
+.iconz {
+    color: $prycolor;;
+}

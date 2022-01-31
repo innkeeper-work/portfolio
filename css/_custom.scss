@@ -27,12 +27,12 @@ $prycolor: #00c0a3;
 	line-height: $nav-line-height;
 }
 
-@mixin myname-font($myname-line-height: 45px, $myname-letter-spacing: -0.02em) {
+@mixin myname-font($myname-line-height: 2.5rem, $myname-letter-spacing: -0.02em) {
 	font: {
 		family: Arial;
 		// style: normal;
 		weight: bold;
-		size: 30px;
+		size: 1.25rem;
 	}
 
 	line-height: $myname-line-height;
@@ -40,7 +40,7 @@ $prycolor: #00c0a3;
 }
 
 @mixin myintro-font(
-	$myintro-line-height: 53px,
+	$myintro-line-height: 2.5rem,
 	$myintro-letter-spacing: -0.02em
 ) {
 	font: {
