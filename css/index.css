@@ -1,8 +1,30 @@
-.headone {
-  font-family: Arial;
-  font-style: normal;
+body {
+  background-color: #fbeaff;
+}
+
+.logo {
+  font-family: Roboto;
   font-weight: normal;
-  font-size: 40px;
-  color: blue;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: -0.14em;
+}
+
+.menu {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 23px;
+}
+
+.contact-btn {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 1.25rem;
+  background-color: #00c0a3;
+}
+
+.contact-btn:hover {
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */

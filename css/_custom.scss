@@ -3,6 +3,8 @@
 // colors
 $bgcolor: #fbeaff;
 $prycolor: #00c0a3;
+
+
 // fonts
 @mixin logo-font($logo-line-height: 53px, $logo-letter-spacing: -0.14em) {
 	font: {
@@ -19,7 +21,7 @@ $prycolor: #00c0a3;
 		family: Roboto;
 		// style: normal;
 		weight: normal;
-		size: 15px;
+		size: 1.25rem;
 	}
 
 	line-height: $nav-line-height;
@@ -115,10 +117,14 @@ $prycolor: #00c0a3;
 
 // button
 @mixin contact-button {
-	position: relative;
-	padding: 0.1rem 0.95rem;
-	font-weight: 500;
-	margin: 0;
+    font: {
+		family: Roboto;
+		// style: normal;
+		weight: normal;
+		size: 1.25rem;
+	}
+	// font-weight: 500;
+	// margin: 0;
 	background-color: #00c0a3;
 }
 @mixin hireme-button {

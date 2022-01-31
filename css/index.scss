@@ -1,60 +1,22 @@
-// color
-$bg-color: #FBEAFF;
-$pry-color: #00C0A3;
-$sec-color: #ffffff;
-$text-color: #000000;
-$black-opacity:rgba(0, 0, 0, 0.6);
+@use '../css/custom' as *;
 
-
-
-// fonts
-@mixin subtitles {
-    font: {
-        family: Arial;
-        style: normal;
-        weight: normal;
-        size: 40px;
-    }
-    // line-height: 53px;
+body {
+    background-color: $bgcolor;
 }
 
-@mixin semititle {
-    font: {
-        family: Helvetica;
-        style: normal;
-        weight: bold;
-        size: 34px;
-    }
-
-    // line-height: 45px;
-    // letter-spacing: -0.02em
+.logo {
+    @include logo-font;
 }
 
-@mixin parag {
-    font: {
-        family: Roboto;
-        style: normal;
-        weight: 200;
-        size: 18px;
-    }
-
-    line-height: 21px;
+.menu {
+    @include nav-font;
 }
 
-@mixin button {
-    width: 132px;
-    height: 44px;
-    background: #00C0A3;
-    border-radius: 50px;
+.contact-btn {
+    @include contact-button;
+    // padding: 9px;
 }
 
-.headone {
-    @include subtitles;
-    color: blue;
+.contact-btn:hover {
+    color: white;
 }
-@use 'css/custom' as *;
-
-
-
-
-
