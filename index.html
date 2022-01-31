@@ -14,7 +14,7 @@
 <!-- Navbar Section Starts -->
 
 <!-- desktop navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light d-none d-sm-none d-md-block">
   <div class="container-fluid">
     <a class="navbar-brand logo" href="#">DHC</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,6 +38,33 @@
 </nav>
 
 <!-- desktop navbar ends -->
+
+<!-- mobile navbar -->
+<div>
+    <a class="navbar-brand logo d-block d-sm-block d-md-none" href="#">DHC</a>
+
+  <nav class="navbar navbar-light d-block d-sm-block d-md-none fixed-bottom">
+  <div class="container-fluid mobile-bg">
+      <ul class="navbar-nav mx-auto flex-row justify-content-evenly menu ">
+        <li class="nav-item mx-4">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link">Pricing</a>
+        </li>
+
+        <li class="nav-item mx-4">
+          <a class="nav-link">Contact</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+</div>
+
+<!-- mobile navbar ends -->
 
 <!-- Navbar Section Ends -->
 
